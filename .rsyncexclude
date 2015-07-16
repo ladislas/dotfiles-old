@@ -1,0 +1,9 @@
+.git
+.gitmodules
+.DS_Store
+.rsyncexclude
+bootstrap.sh
+brew.sh
+.zsh
+README.md
+LICENSE
