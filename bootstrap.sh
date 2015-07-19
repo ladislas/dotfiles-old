@@ -8,7 +8,7 @@ git pull origin master;
 
 function doIt() {
 
-	# rsync --exclude-from='./.rsyncexclude' -avh --no-perms . ~;
+	rsync --exclude-from='./.rsyncexclude' -avh --no-perms . ~;
 	# source ~/.zshrc;
 	echo -n "\n$fg[cyan]Press any key to quit and restart open a new terminal window..."
 	read quit
